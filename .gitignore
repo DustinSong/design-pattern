@@ -25,3 +25,7 @@
 hs_err_pid*
 
 
+.idea/
+design-pattern.iml
+target/generated-sources/
+target/generated-test-sources/
