@@ -1,0 +1,16 @@
+package cn.zenyatta.learn.designpattern.adapter;
+
+/**
+ * @author mingming.song
+ */
+class VlcPlayer implements AdvancedMediaPlayer {
+    @Override
+    public void playVlc(String fileName) {
+        System.out.println("Playing vlc file. Name: " + fileName);
+    }
+
+    @Override
+    public void playMp4(String fileName) {
+        throw new UnsupportedOperationException();
+    }
+}
