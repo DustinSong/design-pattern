@@ -1,9 +1,9 @@
-package cn.zenyatta.learn.designpattern.common;
+package cn.zenyatta.learn.designpattern.abstractfactory;
 
 /**
  * @author mingming.song
  */
-public class Blue implements Color {
+class Blue implements Color {
     @Override
     public void fill() {
         System.out.println("Inside Blue::fill() method.");

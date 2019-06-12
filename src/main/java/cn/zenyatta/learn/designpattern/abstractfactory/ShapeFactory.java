@@ -1,12 +1,11 @@
 package cn.zenyatta.learn.designpattern.abstractfactory;
 
-import cn.zenyatta.learn.designpattern.common.*;
 import org.apache.commons.lang3.StringUtils;
 
 /**
  * @author mingming.song
  */
-public class ShapeFactory extends AbstractFactory {
+class ShapeFactory extends AbstractFactory {
     @Override
     Color getColor(String color) {
         throw new UnsupportedOperationException();

@@ -3,7 +3,7 @@ package cn.zenyatta.learn.designpattern.singleton;
 /**
  * @author mingming.song
  */
-public class SingleObjectLazyThreadUnsafe {
+class SingleObjectLazyThreadUnsafe {
 
     private static SingleObjectLazyThreadUnsafe instance;
 

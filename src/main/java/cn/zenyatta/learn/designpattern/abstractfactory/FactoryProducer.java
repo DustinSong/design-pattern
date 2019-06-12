@@ -5,7 +5,7 @@ import org.apache.commons.lang3.StringUtils;
 /**
  * @author mingming.song
  */
-public class FactoryProducer {
+class FactoryProducer {
     public static AbstractFactory getFactory(String chioce) {
         switch (StringUtils.upperCase(chioce)) {
             case "SHAPE":

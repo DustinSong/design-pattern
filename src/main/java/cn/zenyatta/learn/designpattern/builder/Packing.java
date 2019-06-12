@@ -3,6 +3,6 @@ package cn.zenyatta.learn.designpattern.builder;
 /**
  * @author mingming.song
  */
-public interface Packing {
+interface Packing {
     String pack();
 }

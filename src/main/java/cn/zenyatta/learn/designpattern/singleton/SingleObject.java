@@ -3,7 +3,7 @@ package cn.zenyatta.learn.designpattern.singleton;
 /**
  * @author mingming.song
  */
-public class SingleObject {
+class SingleObject {
     private static SingleObject instance= new SingleObject();
 
     private SingleObject() {}

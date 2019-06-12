@@ -7,7 +7,7 @@ import java.util.List;
 /**
  * @author mingming.song
  */
-public class Meal {
+class Meal {
     private List<Item> itemList = new ArrayList<>();
 
     public void addItem(Item item) {

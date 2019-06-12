@@ -3,7 +3,7 @@ package cn.zenyatta.learn.designpattern.builder;
 /**
  * @author mingming.song
  */
-public class MealBuilder {
+class MealBuilder {
 
     public Meal prepareVegMeal() {
         Meal meal = new Meal();

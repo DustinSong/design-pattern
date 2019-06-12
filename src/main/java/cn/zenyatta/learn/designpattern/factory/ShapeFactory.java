@@ -1,15 +1,15 @@
 package cn.zenyatta.learn.designpattern.factory;
 
-import cn.zenyatta.learn.designpattern.common.Circle;
-import cn.zenyatta.learn.designpattern.common.Rectangle;
-import cn.zenyatta.learn.designpattern.common.Shape;
-import cn.zenyatta.learn.designpattern.common.Square;
+import cn.zenyatta.learn.designpattern.abstractfactory.Circle;
+import cn.zenyatta.learn.designpattern.abstractfactory.Rectangle;
+import cn.zenyatta.learn.designpattern.abstractfactory.Shape;
+import cn.zenyatta.learn.designpattern.abstractfactory.Square;
 import org.apache.commons.lang3.StringUtils;
 
 /**
  * @author mingming.song
  */
-public class ShapeFactory {
+class ShapeFactory {
 
     public static Shape getShape(String shapeType) {
         switch (StringUtils.upperCase(shapeType)) {

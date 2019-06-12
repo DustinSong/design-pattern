@@ -3,7 +3,7 @@ package cn.zenyatta.learn.designpattern.singleton;
 /**
  * @author mingming.song
  */
-public class SingleObjectLazyDoubleCheckLock {
+class SingleObjectLazyDoubleCheckLock {
     private static volatile SingleObjectLazyDoubleCheckLock instance;
 
     public static SingleObjectLazyDoubleCheckLock getInstance() {

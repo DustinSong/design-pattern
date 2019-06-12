@@ -5,7 +5,7 @@ import java.math.BigDecimal;
 /**
  * @author mingming.song
  */
-public interface Item {
+interface Item {
     String name();
     Packing packing();
     BigDecimal price();

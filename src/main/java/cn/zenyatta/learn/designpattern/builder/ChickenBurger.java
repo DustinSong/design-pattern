@@ -5,7 +5,7 @@ import java.math.BigDecimal;
 /**
  * @author mingming.song
  */
-public class ChickenBurger extends Burger {
+class ChickenBurger extends Burger {
     @Override
     public String name() {
         return "Chicken Burger";
