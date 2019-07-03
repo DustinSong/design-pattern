@@ -3,7 +3,7 @@ package cn.zenyatta.learn.designpattern.facade;
 /**
  * @author mingming.song
  */
-public class ShapeMaker {
+class ShapeMaker {
     private Shape circle;
     private Shape rectangle;
     private Shape square;
