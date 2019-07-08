@@ -3,7 +3,7 @@ package cn.zenyatta.learn.designpattern.observer;
 /**
  * @author mingming.song
  */
-public class OctalObserver extends Observer {
+class OctalObserver extends Observer {
 
     public OctalObserver(Subject subject) {
         this.subject = subject;

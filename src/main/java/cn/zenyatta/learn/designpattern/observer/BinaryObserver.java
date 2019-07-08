@@ -3,7 +3,7 @@ package cn.zenyatta.learn.designpattern.observer;
 /**
  * @author mingming.song
  */
-public class BinaryObserver extends Observer {
+class BinaryObserver extends Observer {
 
     public BinaryObserver(Subject subject) {
         this.subject = subject;
